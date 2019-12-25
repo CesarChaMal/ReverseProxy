@@ -1,0 +1,9 @@
+go get github.com/bogdanovich/dns_resolver
+#After this command dns_resolver is ready to use. Its source will be in:
+$GOPATH/src/github.com/bogdanovich/dns_resolver
+
+cd main
+go run .
+go run main.go
+go run *.go
+
